@@ -1,0 +1,14 @@
+[Unit]
+Description=gRPC Auth
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/apps/go_grpc-auth
+ExecStart=/root/apps/go_grpc-auth/grpc-auth --config=/root/apps/go_grpc-auth/config/prod.yaml
+Restart=always
+RestartSec=4
+StandardOutput=inherit
+
+[Install]
+WantedBy=multi-user.target

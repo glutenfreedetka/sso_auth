@@ -1,0 +1,6 @@
+env: "prod"
+storage_path: "/root/apps/go_grpc-auth/sso.db"
+token_ttl: 1h
+grpc:
+  port: 9181
+  timeout: 10h

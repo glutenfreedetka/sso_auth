@@ -7,7 +7,6 @@ require (
 	github.com/glutenfreedetka/proto v0.0.3
 	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/golang-migrate/migrate/v4 v4.18.1
-	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.2.0
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	github.com/mattn/go-sqlite3 v1.14.24
 	github.com/stretchr/testify v1.10.0
